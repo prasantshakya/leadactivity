@@ -1,0 +1,111 @@
+[24-Oct-2024 17:31:38 Asia/Calcutta] PHP Fatal error:  Cannot redeclare App\Http\Controllers\LeadController::addlead() in /home/pboljhog/propyards.in/crmapp/app/Http/Controllers/LeadController.php on line 99
+[24-Oct-2024 17:31:53 Asia/Calcutta] PHP Fatal error:  Cannot redeclare App\Http\Controllers\LeadController::addlead() in /home/pboljhog/propyards.in/crmapp/app/Http/Controllers/LeadController.php on line 99
+[24-Oct-2024 17:33:33 Asia/Calcutta] PHP Fatal error:  Cannot redeclare App\Http\Controllers\LeadController::addlead() in /home/pboljhog/propyards.in/crmapp/app/Http/Controllers/LeadController.php on line 99
+[24-Oct-2024 17:33:41 Asia/Calcutta] PHP Fatal error:  Cannot redeclare App\Http\Controllers\LeadController::addlead() in /home/pboljhog/propyards.in/crmapp/app/Http/Controllers/LeadController.php on line 99
+[29-Oct-2024 15:01:47 Asia/Calcutta] PHP Fatal error:  Cannot declare class App\Http\Requests\Admin\Employee\ImportRequest, because the name is already in use in /home/pboljhog/propyards.in/crmapp/app/Http/Requests/ImportRequest.php on line 7
+[06-Nov-2024 15:08:50 Asia/Calcutta] PHP Fatal error:  Cannot use App\Imports\LeadsImport as LeadsImport because the name is already in use in /home/pboljhog/propyards.in/crmapp/app/Http/Controllers/LeadController.php on line 40
+[06-Nov-2024 15:09:00 Asia/Calcutta] PHP Fatal error:  Cannot use App\Imports\LeadsImport as LeadsImport because the name is already in use in /home/pboljhog/propyards.in/crmapp/app/Http/Controllers/LeadController.php on line 40
+[06-Nov-2024 15:09:28 Asia/Calcutta] PHP Fatal error:  Cannot use App\Imports\LeadsImport as LeadsImport because the name is already in use in /home/pboljhog/propyards.in/crmapp/app/Http/Controllers/LeadController.php on line 39
+[06-Nov-2024 15:09:30 Asia/Calcutta] PHP Fatal error:  Cannot use App\Imports\LeadsImport as LeadsImport because the name is already in use in /home/pboljhog/propyards.in/crmapp/app/Http/Controllers/LeadController.php on line 39
+[06-Nov-2024 15:09:52 Asia/Calcutta] PHP Fatal error:  Cannot redeclare App\Http\Controllers\LeadController::import() in /home/pboljhog/propyards.in/crmapp/app/Http/Controllers/LeadController.php on line 1325
+[08-Nov-2024 13:19:01 Asia/Calcutta] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Http\Request" not found in /home/pboljhog/propyards.in/crmapp/app/Http/Controllers/LeadController.php on line 43
+[08-Nov-2024 13:19:23 Asia/Calcutta] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Http\Request" not found in /home/pboljhog/propyards.in/crmapp/app/Http/Controllers/LeadController.php on line 43
+[08-Nov-2024 13:19:25 Asia/Calcutta] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Http\Request" not found in /home/pboljhog/propyards.in/crmapp/app/Http/Controllers/LeadController.php on line 43
+[08-Nov-2024 13:19:28 Asia/Calcutta] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Http\Request" not found in /home/pboljhog/propyards.in/crmapp/app/Http/Controllers/LeadController.php on line 43
+[13-Nov-2024 16:17:54 Asia/Calcutta] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Http\Request" not found in /home/pboljhog/propyards.in/crmapp/app/Http/Controllers/LeadController.php on line 44
+[13-Nov-2024 16:18:50 Asia/Calcutta] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Http\Request" not found in /home/pboljhog/propyards.in/crmapp/app/Http/Controllers/LeadController.php on line 44
+[20-Nov-2024 10:29:52 Asia/Calcutta] PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/home/pboljhog/propyards.in/crmapp/storage/logs" and it could not be created: Permission denied in /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:200
+Stack trace:
+#0 /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(123): Monolog\Handler\StreamHandler->createDir()
+#1 /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(44): Monolog\Handler\StreamHandler->write()
+#2 /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Logger.php(389): Monolog\Handler\AbstractProcessingHandler->handle()
+#3 /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Logger.php(644): Monolog\Logger->addRecord()
+#4 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Log/Logger.php(186): Monolog\Logger->error()
+#5 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Log/Logger.php(97): Illuminate\Log\Logger->writeLog()
+#6 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\Log\Logger->error()
+#7 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\Log\LogManager->error()
+#8 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\Foundation\Exceptions\Handler->reportThrowable()
+#9 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(730): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#11 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#12 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#13 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#14 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#15 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#16 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#17 {main}
+  thrown in /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 200
+[20-Nov-2024 10:30:05 Asia/Calcutta] PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/home/pboljhog/propyards.in/crmapp/storage/logs" and it could not be created: Permission denied in /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:200
+Stack trace:
+#0 /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(123): Monolog\Handler\StreamHandler->createDir()
+#1 /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(44): Monolog\Handler\StreamHandler->write()
+#2 /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Logger.php(389): Monolog\Handler\AbstractProcessingHandler->handle()
+#3 /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Logger.php(644): Monolog\Logger->addRecord()
+#4 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Log/Logger.php(186): Monolog\Logger->error()
+#5 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Log/Logger.php(97): Illuminate\Log\Logger->writeLog()
+#6 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\Log\Logger->error()
+#7 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\Log\LogManager->error()
+#8 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\Foundation\Exceptions\Handler->reportThrowable()
+#9 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(730): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#11 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#12 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#13 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#14 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#15 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#16 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#17 {main}
+  thrown in /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 200
+[20-Nov-2024 10:30:09 Asia/Calcutta] PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/home/pboljhog/propyards.in/crmapp/storage/logs" and it could not be created: Permission denied in /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:200
+Stack trace:
+#0 /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(123): Monolog\Handler\StreamHandler->createDir()
+#1 /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(44): Monolog\Handler\StreamHandler->write()
+#2 /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Logger.php(389): Monolog\Handler\AbstractProcessingHandler->handle()
+#3 /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Logger.php(644): Monolog\Logger->addRecord()
+#4 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Log/Logger.php(186): Monolog\Logger->error()
+#5 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Log/Logger.php(97): Illuminate\Log\Logger->writeLog()
+#6 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\Log\Logger->error()
+#7 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\Log\LogManager->error()
+#8 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\Foundation\Exceptions\Handler->reportThrowable()
+#9 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(730): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#11 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#12 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#13 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#14 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#15 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#16 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#17 {main}
+  thrown in /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 200
+[20-Nov-2024 10:30:34 Asia/Calcutta] PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/home/pboljhog/propyards.in/crmapp/storage/logs" and it could not be created: Permission denied in /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:200
+Stack trace:
+#0 /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(123): Monolog\Handler\StreamHandler->createDir()
+#1 /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(44): Monolog\Handler\StreamHandler->write()
+#2 /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Logger.php(389): Monolog\Handler\AbstractProcessingHandler->handle()
+#3 /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Logger.php(644): Monolog\Logger->addRecord()
+#4 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Log/Logger.php(186): Monolog\Logger->error()
+#5 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Log/Logger.php(97): Illuminate\Log\Logger->writeLog()
+#6 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\Log\Logger->error()
+#7 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\Log\LogManager->error()
+#8 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\Foundation\Exceptions\Handler->reportThrowable()
+#9 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(730): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#11 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#12 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#13 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#14 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#15 /home/pspace/leadactpro.in/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#16 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#17 {main}
+  thrown in /home/pspace/leadactpro.in/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 200
+[22-Nov-2024 11:21:04 Asia/Calcutta] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/pspace/leadactpro.in/app/Http/Controllers/DashboardController.php on line 3
+[22-Nov-2024 11:22:32 Asia/Calcutta] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/pspace/leadactpro.in/app/Http/Controllers/DashboardController.php on line 3
+[22-Nov-2024 11:23:12 Asia/Calcutta] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/pspace/leadactpro.in/app/Http/Controllers/DashboardController.php on line 3
+[22-Nov-2024 11:26:55 Asia/Calcutta] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/pspace/leadactpro.in/app/Http/Controllers/DashboardController.php on line 3
+[22-Nov-2024 11:26:55 Asia/Calcutta] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/pspace/leadactpro.in/app/Http/Controllers/DashboardController.php on line 3
+[28-Nov-2024 12:08:51 Asia/Calcutta] PHP Fatal error:  Cannot redeclare App\Http\Controllers\DashboardController::substatusleads() in /home/pspace/leadactpro.in/app/Http/Controllers/DashboardController.php on line 924
+[28-Nov-2024 12:08:55 Asia/Calcutta] PHP Fatal error:  Cannot redeclare App\Http\Controllers\DashboardController::substatusleads() in /home/pspace/leadactpro.in/app/Http/Controllers/DashboardController.php on line 924
+[28-Nov-2024 12:09:52 Asia/Calcutta] PHP Fatal error:  Cannot redeclare App\Http\Controllers\DashboardController::substatusleads() in /home/pspace/leadactpro.in/app/Http/Controllers/DashboardController.php on line 924
+[28-Nov-2024 12:10:08 Asia/Calcutta] PHP Fatal error:  Cannot redeclare App\Http\Controllers\DashboardController::substatusleads() in /home/pspace/leadactpro.in/app/Http/Controllers/DashboardController.php on line 924
+[28-Nov-2024 12:10:10 Asia/Calcutta] PHP Fatal error:  Cannot redeclare App\Http\Controllers\DashboardController::substatusleads() in /home/pspace/leadactpro.in/app/Http/Controllers/DashboardController.php on line 924
+[28-Nov-2024 12:13:03 Asia/Calcutta] PHP Fatal error:  Cannot redeclare App\Http\Controllers\DashboardController::substatusleads() in /home/pspace/leadactpro.in/app/Http/Controllers/DashboardController.php on line 924
